@@ -4,7 +4,8 @@
   "description": "kekemeke",
   "main": "app.js",
   "scripts": {
-    "test": "mocha --recursive test"
+    "test": "mocha --recursive test",
+    "start": "node ."
   },
   "author": "Zenedith <zenedith@wp.pl> (https://github.com/Zenedith)",
   "license": "MIT",
