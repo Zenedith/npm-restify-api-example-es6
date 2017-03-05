@@ -1,7 +1,7 @@
 {
-  "name": "kekemeke",
+  "name": "npm-restify-api-example-es6",
   "version": "0.1.0",
-  "description": "kekemeke",
+  "description": "npm-restify-api-example-es6",
   "main": "app.js",
   "scripts": {
     "test": "mocha --recursive test",
@@ -10,16 +10,20 @@
   "author": "Zenedith <zenedith@wp.pl> (https://github.com/Zenedith)",
   "license": "MIT",
   "dependencies": {
-    "chai": "3.5.0",
     "config": "1.25.1",
     "mongoose": "4.8.5",
     "restify": "4.3.0",
     "winston": "2.3.1"
   },
   "devDependencies": {
+    "chai": "3.5.0",
     "mocha": "3.2.0"
   },
   "engines": {
     "node": ">=7.7.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Zenedith/npm-restify-api-example-es6.git"
   }
 }
