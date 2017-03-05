@@ -10,6 +10,8 @@
   "author": "Zenedith <zenedith@wp.pl> (https://github.com/Zenedith)",
   "license": "MIT",
   "dependencies": {
+    "config": "1.25.1",
+    "mongoose": "4.8.5",
     "restify": "4.3.0",
     "winston": "2.3.1"
   },
