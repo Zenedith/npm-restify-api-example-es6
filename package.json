@@ -10,6 +10,7 @@
   "author": "Zenedith <zenedith@wp.pl> (https://github.com/Zenedith)",
   "license": "MIT",
   "dependencies": {
+    "chai": "3.5.0",
     "config": "1.25.1",
     "mongoose": "4.8.5",
     "restify": "4.3.0",
