@@ -9,12 +9,12 @@ const routes = [
   {
     path: '/users',
     method: 'post',
-    controller: usersController.createUser
+    controller: usersController.createUser.bind(usersController)
   },
   {
     path: '/users',
     method: 'get',
-    controller: usersController.getUsers
+    controller: usersController.getUsers.bind(usersController)
   }
 ];
 
