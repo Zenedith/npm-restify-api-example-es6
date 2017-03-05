@@ -1,18 +1,11 @@
-var winston = require('winston');
-var config = require('config');
-var minimst = require('minimist');
-var API = require('./lib/api').API;
-var UsersController = require('./lib/controllers/usersController').UsersController;
+const winston = require('winston');
+const API = require('./lib/api').API;
+const UsersController = require('./lib/controllers/usersController').UsersController;
 
-winston.log('info', 'Hello distributed log files!');
-winston.info(minimst(process.argv.slice(2)));
-winston.info(winston.hash('sss'));
+const api = new API(winston);
+const usersController = new UsersController(winston);
 
-
-var api = new API();
-var usersController = new UsersController(winston);
-
-var routes = [
+const routes = [
   {
     path: '/users',
     method: 'post',
